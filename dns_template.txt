@@ -1,0 +1,12 @@
+--- DNS Report ---
+Target: {{TARGET}}
+Date: {{DATE}}
+Results:
+- A Records:
+{{A_RECORDS}}
+- CNAME Record:
+{{CNAME_RECORD}}
+- MX Records:
+{{MX_RECORDS}}
+- TXT Records:
+{{TXT_RECORDS}}

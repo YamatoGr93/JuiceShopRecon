@@ -1,0 +1,5 @@
+--- Fuzzing Report ---
+Target: {{TARGET}}
+Date: {{DATE}}
+Payloads Tested:
+{{PAYLOADS}}

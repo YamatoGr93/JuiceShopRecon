@@ -1,0 +1,13 @@
+--- DNS Report ---
+Target: localhost
+Date: Sat, 07 Dec 2024 12:14:01 EET
+Results:
+- A Records:
+- ::1
+- 127.0.0.1
+- CNAME Record:
+localhost.home.
+- MX Records:
+
+- TXT Records:
+
